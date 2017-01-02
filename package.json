@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/noahblon/starter-kit#readme",
   "devDependencies": {
-    "eslint": "3.12.2"
+    "eslint": "3.12.2",
+    "eslint-config-kentcdodds": "11.1.0"
   }
 }
