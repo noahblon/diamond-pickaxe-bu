@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
+    "lint": "eslint .",
     "test": "mocha"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/noahblon/starter-kit/issues"
   },
-  "homepage": "https://github.com/noahblon/starter-kit#readme"
+  "homepage": "https://github.com/noahblon/starter-kit#readme",
+  "devDependencies": {
+    "eslint": "3.12.2"
+  }
 }
