@@ -1,2 +1,1 @@
-# scaling-octo-chainsaw
-Animation Engine powered by the Web Animations API
+# OSS Starter Kit
