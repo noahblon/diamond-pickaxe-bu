@@ -1,0 +1,19 @@
+{
+  "name": "starter-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahblon/starter-kit.git"
+  },
+  "author": "Noah Blon <noahblon@gmail.com> (http://noahblon.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noahblon/starter-kit/issues"
+  },
+  "homepage": "https://github.com/noahblon/starter-kit#readme"
+}
