@@ -1,1 +1,1 @@
-# OSS Starter Kit
+# 💎⛏ OSS Starter Kit
