@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "eslint src",
     "test": "nyc blue-tape ./src/**/*.test.js | tap-diff",
-    "validate": "npm-run-all --parallel lint test"
+    "validate": "npm-run-all --parallel lint test",
+    "precommit": "npm run validate"
   },
   "repository": {
     "type": "git",
