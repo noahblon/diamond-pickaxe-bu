@@ -17,11 +17,25 @@
     "url": "https://github.com/noahblon/starter-kit/issues"
   },
   "homepage": "https://github.com/noahblon/starter-kit#readme",
+  "nyc": {
+    "check-coverage": true,
+    "branches": 100,
+    "functions": 100,
+    "lines": 100,
+    "statements": 100,
+    "reporter": [
+      "text",
+      "lcov"
+    ],
+    "include": [
+      "src"
+    ]
+  },
   "devDependencies": {
     "blue-tape": "1.0.0",
     "eslint": "3.12.2",
     "eslint-config-kentcdodds": "11.1.0",
     "tap-diff": "0.1.1",
     "nyc": "10.0.0"
-  },
+  }
 }
