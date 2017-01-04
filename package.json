@@ -21,6 +21,9 @@
     "url": "https://github.com/noahblon/starter-kit/issues"
   },
   "homepage": "https://github.com/noahblon/starter-kit#readme",
+  "files": [
+    "dist"
+  ],
   "nyc": {
     "check-coverage": true,
     "branches": 100,
