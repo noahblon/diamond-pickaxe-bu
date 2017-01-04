@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-    test: function() {
-        return 2;
+    test: function test() {
+        return 2
     },
-};
+}

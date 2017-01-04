@@ -1,13 +1,11 @@
-'use strict';
+const test = require('blue-tape')
+const testBed = require('.')
 
-var test = require('tape')
-var testBed = require('.')
-
-test('testBed', function (assert) {
-  assert.equal(
-      testBed.test(),
-      2,
-      'equals 2!'
-  )
-  assert.end()
+test('testBed', assert => {
+    assert.equal(
+        testBed.test(),
+        2,
+        'equals 2!',
+    )
+    assert.end()
 })
