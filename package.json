@@ -1,6 +1,6 @@
 {
   "name": "diamond-pickaxe",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "My personal OSS starter kit.",
   "main": "dist/index.js",
   "scripts": {
@@ -13,18 +13,19 @@
     "precommit": "npm run validate",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "test": "cross-env NODE_ENV=test nyc blue-tape ./src/**/*.test.js | tap-diff",
-    "validate": "npm-run-all --parallel lint test"
+    "validate": "npm-run-all --parallel lint test",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/noahblon/starter-kit.git"
+    "url": "https://github.com/noahblon/diamond-pickaxe.git"
   },
   "author": "Noah Blon <noahblon@gmail.com> (http://noahblon.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/noahblon/starter-kit/issues"
+    "url": "https://github.com/noahblon/diamond-pickaxe/issues"
   },
-  "homepage": "https://github.com/noahblon/starter-kit#readme",
+  "homepage": "https://github.com/noahblon/diamond-pickaxe#readme",
   "files": [
     "dist"
   ],
@@ -44,6 +45,7 @@
     "nyc": "10.0.0",
     "rimraf": "2.5.4",
     "tap-diff": "0.1.1",
-    "webpack": "1.14.0"
+    "webpack": "1.14.0",
+    "semantic-release": "^6.3.2"
   }
 }
