@@ -1,7 +1,7 @@
 {
-  "name": "starter-kit",
+  "name": "diamond-pickaxe",
   "version": "1.0.0",
-  "description": "",
+  "description": "My personal OSS starter kit.",
   "main": "dist/index.js",
   "scripts": {
     "build": "npm-run-all --parallel build:*",
