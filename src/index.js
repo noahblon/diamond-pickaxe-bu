@@ -1,5 +1,5 @@
 module.exports = {
     test: function test() {
-        return 2
+        return 1
     },
 }

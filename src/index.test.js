@@ -4,8 +4,8 @@ const testBed = require('.')
 test('testBed', assert => {
     assert.equal(
         testBed.test(),
-        2,
-        'equals 2!',
+        1,
+        'equals 1!',
     )
     assert.end()
 })
