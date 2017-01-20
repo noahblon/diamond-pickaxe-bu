@@ -55,7 +55,7 @@
     "rimraf": "2.5.4",
     "semantic-release": "6.3.2",
     "tap-diff": "0.1.1",
-    "validate-commit-msg": "2.8.2",
+    "validate-commit-msg": "2.9.0",
     "webpack": "1.14.0"
   }
 }
