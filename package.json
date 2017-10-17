@@ -56,6 +56,6 @@
     "semantic-release": "6.3.2",
     "tap-diff": "0.1.1",
     "validate-commit-msg": "2.8.2",
-    "webpack": "1.14.0"
+    "webpack": "3.8.0"
   }
 }
